@@ -1,0 +1,148 @@
+.footer{
+   background: $bg-main;
+   display: flex;
+   justify-content: space-between;
+   padding: 30px 160px 30px 160px;
+   @media screen and (max-width: 1919px){
+      padding: 30px 60px 30px 60px;
+   }
+   @media screen and (max-width: 767px){
+      padding: 30px 30px 30px 30px;
+      flex-direction: column;
+      text-align: center;
+   }
+   
+   &__info{
+      display: flex;
+      flex-direction: column;
+      gap: 21px;
+     
+   }
+   &__adress{
+      display: flex;
+      align-items: center;
+      gap: 26px;
+      @media screen and (max-width: 767px){
+         flex-direction: column;      
+      }
+   }
+   &__street{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: $dark-violet;
+      font-style: normal;
+      margin: 0;
+   }
+   &__map{
+      color: $nav-color;
+      text-decoration: none;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: 1;
+      position: relative;
+      &:hover{
+			transition: 0.5s all ease;
+			color: $accent-color;
+		}
+      &::before{
+         content: '';
+         position: absolute;
+         width: 6px;
+         height: 6px;
+         top: 5px;
+         left: -15px;
+         background-color: #B3B3BA;
+         border-radius: 50px;
+         @media screen and (max-width: 767px){
+            display: none;
+         }
+      }
+   }
+   &__contact{
+      display: flex;
+      align-items: center;
+      gap: 26px;
+      @media screen and (max-width: 1023px){
+         white-space: nowrap;
+      }
+      @media screen and (max-width: 767px){
+         flex-direction: column;      
+      }
+   }
+   &__facebook{
+      display: inline-block;
+      position: relative;
+		width: 24px;
+		height: 24px;
+		top: 2px;
+		fill: $nav-color;
+		&:hover svg path{
+			transition: 0.5s all ease;
+			fill: $accent-color;
+		}
+   }
+   &__number{
+      color: $dark-violet;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+      text-decoration: none;
+      position: relative;
+      &::before{
+         content: '';
+         position: absolute;
+         width: 6px;
+         height: 6px;
+         top: 7px;
+         left: -15px;
+         background-color: #B3B3BA;
+         border-radius: 50px;
+         @media screen and (max-width: 767px){
+            display: none;
+         }
+      }
+         
+   }
+   &__mail{
+      color: $nav-color;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+      position: relative;
+      &:hover{
+			transition: 0.5s all ease;
+			color: $accent-color;
+		}
+      &::before{
+         content: '';
+         position: absolute;
+         width: 6px;
+         height: 6px;
+         top: 7px;
+         left: -15px;
+         background-color: #B3B3BA;
+         border-radius: 50px;
+         @media screen and (max-width: 767px){
+            display: none;
+         }
+      }
+      @media screen and (max-width: 767px){
+         padding: 0 0 30px 0;
+      }
+   }
+   &__company{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #B3B3BA;
+      @media screen and (max-width: 1023px){
+         white-space: nowrap;
+      }
+   }
+   
+}
