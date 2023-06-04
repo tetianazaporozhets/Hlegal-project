@@ -1,0 +1,93 @@
+.partners{
+   padding: 0 60px 100px 60px;
+	@media screen and (max-width: 1439px){
+		padding: 0 0 100px 0;
+	}
+	&__subtitle{
+		color: #323264;
+		font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 1px;
+		text-align: center;
+		text-transform: uppercase;
+
+/* Main / Regular */
+
+color: #323264;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+		margin: 0 0 30px 0;
+		
+	}
+	&__list{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: flex;
+		flex-wrap: wrap;
+		border-radius: 12px;
+	   overflow: hidden;
+		@media screen and (max-width: 1439px){
+			border-radius: 0;
+		}
+	}
+	&__item{
+		width: 25%;
+		@media screen and (max-width: 1023px){
+			width: calc(100% / 3);
+		}
+		@media screen and (max-width: 767px){
+			width: 50%;
+		}
+		@media screen and (max-width: 632px){
+			width: 100%;
+		}
+	}
+	&__link{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 120px;
+		background: #1C4280;
+		&_green{
+			background: #143646;
+		}
+		&_orangebg{
+			background: linear-gradient(0deg, #F48B30, #F48B30), #F48B30;
+		}
+		&_rose{
+			background: #9E4DC3;
+		}
+		&_orange{
+			background: #FD9339;
+		}
+		&_gray{
+			background: #E2E2E4;
+		}
+		&_red{
+			background: #C71C36;
+		}
+		&_azur{
+			background: #DCF3F9;
+		}
+		&_granite{
+			background: #EAEAEA;
+		}
+		&_violet{
+			background: #282240;
+		}
+		&_cyan{
+			background: #1D4568;
+		}
+		&_black{
+			background: #000000;
+		}
+	}
+	
+}
