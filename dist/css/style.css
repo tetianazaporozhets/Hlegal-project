@@ -391,7 +391,7 @@
   }
 }
 .about__subtitle {
-  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0 0 28px 0;
@@ -432,7 +432,7 @@
   font-weight: 700;
   font-size: 36px;
   line-height: 44px;
-  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -448,7 +448,7 @@
 }
 
 .team {
-  background: url("../img/team.jpg") no-repeat;
+  background: url("../img/Team.jpg") no-repeat;
   background-size: 100% auto;
   min-height: 584px;
   display: flex;
@@ -545,7 +545,7 @@
   margin: 0;
 }
 .about-team__sublitle {
-  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
